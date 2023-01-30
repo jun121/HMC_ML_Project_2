@@ -44,3 +44,4 @@ def plot_IQR(data,responseName):
     ax[1,1].set_title("box plot (IQR filter)")
     plt.savefig(file_re_name(responseName))
     plt.show()
+def plot_z_transform(data,responseName,sigma):
